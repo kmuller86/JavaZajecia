@@ -8,6 +8,7 @@ public class Main {
 
         System.out.println("Cześć, jestem Piotr");
         System.out.print("Jak się masz?");
+        System.out.printf("Co słychać?")
 
     }
 }
