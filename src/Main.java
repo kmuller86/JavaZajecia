@@ -17,7 +17,15 @@ public class Main {
         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
         *  */
 
-
+int zmienna1 = 3;
+double zmienna2=1.5;
+float   zmienna3 = 33333;
+byte zmienna4 = 22;
+short zmienna5 = 2525;
+long zmienna6 = 999999999;
+boolean zmienna7 =false;
+char zmienna8  = 'f';
+String zmienna9 = "Jestem Piotr";
 
     }
 }
