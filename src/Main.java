@@ -7,8 +7,13 @@ public class Main {
 //        Użyć każdej z opcji
 
         System.out.println("Cześć, jestem Piotr");
-        System.out.print("Jak się masz?");
-        System.out.print("co Slychac?");
+        System.out.println("Jak się masz?");
+        System.out.print("Co słychać ");
+        System.out.print(" u ciebie");
+        System.out.print(" ?");
+        System.out.printf("Jesteś %s w %d klasyfikacjach. \n", "pierwszy",2 );
+        System.out.println("Co słychać"+ " " + "w przepięknym" + " " + " Gdańsku?" );
+
 
     }
 }
