@@ -12,7 +12,6 @@ public class Main {
         System.out.print(" tekst");
         System.out.print(" nie za długi.");
         System.out.println("Jestem Piotr");
-        System.out.println("Jestem Piotr");
-        System.out.println("Jestem Piotr");
+
     }
 }
