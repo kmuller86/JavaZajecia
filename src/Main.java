@@ -13,7 +13,5 @@ public class Main {
         System.out.print(" ?");
         System.out.printf("Jesteś %s w %d klasyfikacjach. \n", "pierwszy",2 );
         System.out.println("Co słychać"+ " " + "w przepięknym" + " " + " Gdańsku?" );
-
-
     }
 }
