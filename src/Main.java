@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -17,6 +18,7 @@ public class Main {
         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
         *  */
 
+        /* Zadanie 1 */
 int zmienna1 = 3;
 double zmienna2=1.5;
 float   zmienna3 = 33333;
@@ -27,5 +29,26 @@ boolean zmienna7 =false;
 char zmienna8  = 'f';
 String zmienna9 = "Jestem Piotr";
 
-    }
+
+        /* Zadanie 2 */
+int liczbaA = 4;
+int liczbaB = 3;
+        System.out.println(liczbaA + liczbaB);
+        System.out.println(liczbaA - liczbaB );
+        System.out.println(liczbaA * liczbaB);
+        System.out.println( liczbaA / liczbaB);
+        System.out.println( liczbaA % liczbaB);
+
+
+        System.out.println("\nTeraz podpunkt B\n");
+
+double liczbaC = 8.5;
+double liczbaD = 5.25;
+        System.out.println( liczbaC + liczbaD);
+        System.out.println( liczbaC-liczbaD);
+        System.out.println( liczbaC*liczbaD);
+        System.out.println( liczbaC/liczbaD);
+        System.out.println(liczbaC%liczbaD);
+
+     }
 }
