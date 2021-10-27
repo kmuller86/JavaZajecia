@@ -22,6 +22,15 @@ public class Main {
         System.out.println("Na końcu podążamy za poleceniemi.");
         Scanner scan = new Scanner(System.in);
         scan.useLocale(Locale.GERMAN);
+        System.out.println("Proszę podać jedną liczbę zmiennoprzecinkową (jako separatora proszę użyć przecinka) :");
+        double zmienna = scan.nextDouble();
+        if (zmienna < 10 ){
+            System.out.println("Wskazana liczba jest mniejsza od 5");
+        } else if (zmienna == 10){
+            System.out.println("Wskazana liczba jest równa 10");
+        } else {
+            System.out.println("Wskazana liczba jest większa od 10");
+        }
         /* ćw.5 */
 
         /* zad.1 podziel swój wiek przez modulo 3 i jeśli twój wiek zwraca 0 wyświetl napis "Podzielny przez 3",
