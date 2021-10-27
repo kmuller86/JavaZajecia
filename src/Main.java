@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -19,7 +20,8 @@ public class Main {
         System.out.println(wynik1);
 
         System.out.println("Na końcu podążamy za poleceniemi.");
-
+        Scanner scan = new Scanner(System.in);
+        scan.useLocale(Locale.GERMAN);
         /* ćw.5 */
 
         /* zad.1 podziel swój wiek przez modulo 3 i jeśli twój wiek zwraca 0 wyświetl napis "Podzielny przez 3",
