@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -5,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
                 Scanner scan = new Scanner(System.in);
+                scan.useLocale(Locale.GERMAN);
                 String name = scan.nextLine();
                 String secondName= scan.nextLine();
                 int age = scan.nextInt();
@@ -12,6 +14,9 @@ public class Main {
                 System.out.println("Cześć! Nazywam się " + name + secondName);
                 System.out.println("Mam " + age + " lat");
                 System.out.println("A mój numer indeksu to: " + indeks);
+        System.out.printf("Cześć mam na imię %s, a moje nazwisko to %s. \n", name, secondName );
+        System.out.printf("Mam %d lat. \n", age );
+        System.out.printf("Mój numer indeksu : %d \n", indeks);
 
             }
         }
