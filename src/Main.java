@@ -3,6 +3,22 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+/* zad.1 */
+        int mójWiek= 22;
+        int modulo = 3;
+        int wynik = 22%3;
+        System.out.println("W pierwszej kolejności sprawdzimy czy mój wiek jest podzielny przez 3");
+        if (wynik == 0){
+            System.out.println("Podzielny przez 3 ");
+        } else {
+            System.out.println("Niepodzielny przez 3");
+        }
+        System.out.println("Następnie sprawdzimy czy mój numer indeksu jest parzysty");
+        int nrIndeksu = 56178;
+        String wynik1 = nrIndeksu % 2 ==0 ? "parzysta": "nieparzysta" ;
+        System.out.println(wynik1);
+
+        System.out.println("Na końcu podążamy za poleceniemi.");
 
         /* ćw.5 */
 
