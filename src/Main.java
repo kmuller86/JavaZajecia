@@ -29,6 +29,25 @@ public class Main {
         double[] tab3 = new double[5];
         for (double i = 0.3 ; i< tab3.length; i++){
             tab3[(int) i]=i+0.5; /* Dlaczego domaga się w środku int'a ???? zapytać na zajęciach  */
+        /*
+        Ponieważ wybiera pan numer indexu tablicy który jest liczbą całkowitą 0, 1, 2, 3 ... .
+        Ten for jest źle napisany i powinno być liczbą całkowitą bo to jest index którym iterujemy (poruszamy się po tablicy)
+        jak juz można by zrobić coś takiego:
+        
+        for(int i = 0; i<tab3.length; i++) {
+        tab3[i] = (double) i;
+        albo np. (wymyslony przyklad), ale i musi byc liczba calkowitą w tablicy --> np. tab[2]
+        tab3[i] = (double) i + (i+1) / 7.2;
+        }
+        zawsze może pan tez użyć innej zmiennej, jakiejs dodatkowej:
+        double z = 0.2;
+         for(int i = 0; i<tab3.length; i++) {
+         tab3[i] = z;
+         z += 0.8;
+         }
+        
+        
+        */
             System.out.println(tab3[(int) i]+ "");  /* ten sam problem co wyżej !!! zapytać na zajęciach */
         }
 
